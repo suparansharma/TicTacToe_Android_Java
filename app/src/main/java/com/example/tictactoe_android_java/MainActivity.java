@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 oCount=0;
 
                 scorex.setText("Score X :-"+String.valueOf(xCount));
-                scoreo.setText("Score X :-"+String.valueOf(oCount));
+                scoreo.setText("Score Y :-"+String.valueOf(oCount));
 
             }
         });
@@ -112,13 +112,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(startGame.equals("X")){
                     button3.setImageResource(R.drawable.cross);
-                    b2=1;
+                    b3=1;
                     i++;
                 }
 
                 else {
                     button3.setImageResource(R.drawable.circle);
-                    b2=0;
+                    b3=0;
                     i++;
                 }
 
@@ -133,13 +133,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(startGame.equals("X")){
                     button4.setImageResource(R.drawable.cross);
-                    b2=1;
+                    b4=1;
                     i++;
                 }
 
                 else {
                     button4.setImageResource(R.drawable.circle);
-                    b2=0;
+                    b4=0;
                     i++;
                 }
 
@@ -154,13 +154,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(startGame.equals("X")){
                     button5.setImageResource(R.drawable.cross);
-                    b2=1;
+                    b5=1;
                     i++;
                 }
 
                 else {
                     button5.setImageResource(R.drawable.circle);
-                    b2=0;
+                    b5=0;
                     i++;
                 }
 
@@ -176,13 +176,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(startGame.equals("X")){
                     button6.setImageResource(R.drawable.cross);
-                    b2=1;
+                    b6=1;
                     i++;
                 }
 
                 else {
                     button6.setImageResource(R.drawable.circle);
-                    b2=0;
+                    b6=0;
                     i++;
                 }
 
@@ -198,13 +198,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(startGame.equals("X")){
                     button7.setImageResource(R.drawable.cross);
-                    b2=1;
+                    b7=1;
                     i++;
                 }
 
                 else {
                     button7.setImageResource(R.drawable.circle);
-                    b2=0;
+                    b7=0;
                     i++;
                 }
 
@@ -219,13 +219,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(startGame.equals("X")){
                     button8.setImageResource(R.drawable.cross);
-                    b2=1;
+                    b8=1;
                     i++;
                 }
 
                 else {
                     button8.setImageResource(R.drawable.circle);
-                    b2=0;
+                    b8=0;
                     i++;
                 }
 
@@ -241,13 +241,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(startGame.equals("X")){
                     button9.setImageResource(R.drawable.cross);
-                    b2=1;
+                    b9=1;
                     i++;
                 }
 
                 else {
                     button9.setImageResource(R.drawable.circle);
-                    b2=0;
+                    b9=0;
                     i++;
                 }
 

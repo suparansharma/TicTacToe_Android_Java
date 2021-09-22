@@ -20,7 +20,7 @@
             android:id="@+id/buttonImage5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background">
+           >
 
         </ImageView>
     </RelativeLayout>
@@ -35,10 +35,9 @@
         android:background="#343e56">
 
         <ImageView
+            android:id="@+id/buttonImage4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
-            android:id="@+id/buttonImage4">
+            android:layout_height="match_parent">
 
         </ImageView>
     </RelativeLayout>
@@ -53,10 +52,10 @@
         android:background="#343e56">
 
         <ImageView
+            android:id="@+id/buttonImage6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
-            android:id="@+id/buttonImage6">
+           >
 
         </ImageView>
     </RelativeLayout>
@@ -106,16 +105,16 @@
 
 
     <Button
+        android:id="@+id/Reset"
         android:layout_width="320dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/btn8"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
+        android:backgroundTint="@color/purple_200"
         android:text="Reset"
-        android:id="@+id/Reset"
-        android:textSize="15sp"
         android:textColor="@color/white"
-        android:backgroundTint="@color/purple_200">
+        android:textSize="15sp">
 
     </Button>
 
@@ -134,7 +133,7 @@
             android:id="@+id/buttonImage8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background">
+           >
 
         </ImageView>
     </RelativeLayout>
@@ -154,7 +153,7 @@
             android:id="@+id/buttonImage7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background">
+            >
 
         </ImageView>
     </RelativeLayout>
@@ -175,7 +174,7 @@
             android:id="@+id/buttonImage9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background">
+            >
 
         </ImageView>
     </RelativeLayout>
@@ -228,7 +227,7 @@
             android:id="@+id/buttonImage2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background">
+            >
 
         </ImageView>
     </RelativeLayout>
@@ -248,7 +247,7 @@
             android:id="@+id/buttonImage1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background">
+           >
 
         </ImageView>
     </RelativeLayout>
@@ -267,7 +266,7 @@
             android:id="@+id/buttonImage3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background">
+            >
 
         </ImageView>
     </RelativeLayout>
