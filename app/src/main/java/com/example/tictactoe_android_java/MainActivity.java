@@ -1,7 +1,9 @@
 package com.example.tictactoe_android_java;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -260,6 +262,32 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void winningGame(){
+
+
+        if ((b1==1) && (b2==1) && (b3==1))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            xCount++;
+            scorex.setText("Score X :-"+String.valueOf(xCount));
+        }
 
     }
 
