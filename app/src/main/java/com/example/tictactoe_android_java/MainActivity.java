@@ -343,7 +343,374 @@ public class MainActivity extends AppCompatActivity {
             scorex.setText("Score X :-"+String.valueOf(xCount));
         }
 
+
+        else if ((b1==1) && (b4==1) && (b7==1))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            xCount++;
+            scorex.setText("Score X :-"+String.valueOf(xCount));
+        }
+
+        else if ((b2==1) && (b5==1) && (b8==1))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            xCount++;
+            scorex.setText("Score X :-"+String.valueOf(xCount));
+        }
+
+
+        else if ((b3==1) && (b6==1) && (b9==1))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            xCount++;
+            scorex.setText("Score X :-"+String.valueOf(xCount));
+        }
+
+        else if ((b1==1) && (b5==1) && (b9==1))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            xCount++;
+            scorex.setText("Score X :-"+String.valueOf(xCount));
+        }
+
+
+        else if ((b3==1) && (b5==1) && (b7==1))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            xCount++;
+            scorex.setText("Score X :-"+String.valueOf(xCount));
+        }
+
+
+
+        else if ((b1==0) && (b2==0) && (b3==0))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            oCount++;
+            scorex.setText("Score Y :-"+String.valueOf(oCount));
+        }
+
+
+        else if ((b4==0) && (b5==0) && (b6==0))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            oCount++;
+            scorex.setText("Score Y :-"+String.valueOf(oCount));
+        }
+
+
+        else if ((b7==0) && (b8==0) && (b9==0))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            oCount++;
+            scorex.setText("Score Y :-"+String.valueOf(oCount));
+        }
+
+
+        else if ((b1==0) && (b4==0) && (b7==0))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            oCount++;
+            scorex.setText("Score Y :-"+String.valueOf(oCount));
+        }
+
+
+        else if ((b2==0) && (b5==0) && (b8==0))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            oCount++;
+            scorex.setText("Score Y :-"+String.valueOf(oCount));
+        }
+
+        else if ((b3==0) && (b6==0) && (b9==0))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            oCount++;
+            scorex.setText("Score Y :-"+String.valueOf(oCount));
+        }
+
+
+        else if ((b1==0) && (b5==0) && (b9==0))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            oCount++;
+            scorex.setText("Score Y :-"+String.valueOf(oCount));
+        }
+
+
+        else if ((b3==0) && (b5==0) && (b7==0))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player O Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            oCount++;
+            scorex.setText("Score Y :-"+String.valueOf(oCount));
+        }
+
+
+
+        else
+        {
+            if(i==9)
+            {
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setMessage("No one Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        button1.setImageDrawable(null);
+                        button2.setImageDrawable(null);
+                        button3.setImageDrawable(null);
+                        button4.setImageDrawable(null);
+                        button5.setImageDrawable(null);
+                        button6.setImageDrawable(null);
+                        button7.setImageDrawable(null);
+                        button8.setImageDrawable(null);
+                        button9.setImageDrawable(null);
+                        resetValues();
+                    }
+                });
+
+                AlertDialog alertDialog = builder.create();
+                alertDialog.show();
+            }
+        }
     }
+
+
+
+
 
 
     private void choosePlayer(){
