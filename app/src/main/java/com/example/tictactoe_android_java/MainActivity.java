@@ -289,6 +289,60 @@ public class MainActivity extends AppCompatActivity {
             scorex.setText("Score X :-"+String.valueOf(xCount));
         }
 
+
+
+
+        else if ((b4==1) && (b5==1) && (b6==1))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            xCount++;
+            scorex.setText("Score X :-"+String.valueOf(xCount));
+        }
+
+
+        else if ((b7==1) && (b8==1) && (b9==1))
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Player X Wins").setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    button1.setImageDrawable(null);
+                    button2.setImageDrawable(null);
+                    button3.setImageDrawable(null);
+                    button4.setImageDrawable(null);
+                    button5.setImageDrawable(null);
+                    button6.setImageDrawable(null);
+                    button7.setImageDrawable(null);
+                    button8.setImageDrawable(null);
+                    button9.setImageDrawable(null);
+                    resetValues();
+                }
+            });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+            xCount++;
+            scorex.setText("Score X :-"+String.valueOf(xCount));
+        }
+
     }
 
 
